@@ -34,7 +34,7 @@ const startServer = async () => {
     console.log('Neon Database Connected Successfully')
 
     app.listen(PORT, () => {
-      console.log(`Server running at http://localhost:${PORT}`)
+      console.log(`Server running at http://${PORT}`)
     })
   } catch (error) {
     console.error('Database connection failed:', error.message)
