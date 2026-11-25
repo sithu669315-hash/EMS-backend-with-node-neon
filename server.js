@@ -3,7 +3,7 @@ const cors = require('cors')
 require('dotenv').config()
 
 const pool = require('./config/db')
-const employeeRoutes = require('./routes/employeeRoutes')
+const employeeRoutes = require('./routes/employeeroutes')
 
 const app = express()
 
